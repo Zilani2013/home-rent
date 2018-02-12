@@ -1,0 +1,33 @@
+label {
+    width: 100%;
+    background: #aaa;
+    border: solid 1px none;
+    margin: 0 auto;
+    padding: 5px;
+    color: aliceblue;
+    font-family: Arial
+}
+
+
+
+#facility {
+    border: solid 1px #ddd;
+    background: #efeded;
+    padding: 0 10px;
+}
+
+#faci {
+    color: #43ac;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.form-group placeholder {
+    color: red;
+}
+
+.btn {
+    padding: 8px 40px;
+}

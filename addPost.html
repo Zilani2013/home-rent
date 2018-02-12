@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>HomeTrack:Registration</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<!--	<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js">-->
+	<!--Custom CSS-->
+    <link rel="stylesheet" href="CSS/addpost.css">
+</head>
+
+
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-4"><h2>Add Your Post</h2></div>
+            <div class="col-md-5 col-md-offset-3" id="addingPost">
+                
+                        <form>  
+                            <div class="form-group">
+                                <label for="title" class="control-label">Title</label>
+                                <input type="text" class="form-control" id="title" placeholder="Enter post title" required>
+                            </div>
+                            
+                             <div class="form-group">
+                                <label for="description" class="control-label">Description</label>
+                                 <textarea type="text" class="form-control" id="description" placeholder="Enter post title" required></textarea>
+                            </div>
+                            
+                            <div class="form-group" id="category">
+                        <!--select-->
+                                <label>Available For</label><br>
+                                <select class="dropdown form-control" required>
+                                    <option disabled selected>--Choose a category--</option>
+                                    <option id="family">FAMILY</option>
+                                    <option id="bachelor">BACHELOR</option>
+                                    <option id="female">FEMALE</option>
+                                    <option id="office">OFFICE</option>
+                                    <option id="garrage">GARRAGE</option>
+                                    <option id="shopping">SHOPPING</option>
+                                </select>
+                        
+                            </div>
+                    
+                    
+                        
+                            <div class="form-group" id="location">
+                                <label>Division</label><br>
+                                <select class="dropdown form-control" required>
+                                    <option disabled selected>--Choose rent division--</option>
+                                    <option class="place" id="dhaka">Dhaka</option>
+                                    <option class="place" id="ctg">Chittagong</option>
+                                    <option class="place" id="raj">Rajshahi</option>
+                                    <option class="place" id="syl">Sylhet</option>
+                                    <option class="place" id="bar">Barisal</option>
+                                    <option class="place" id="khul">Khulna</option>
+                                    <option class="place" id="mymen">Mymensing</option>
+                                    <option class="place" id="rang">Rangpur</option>
+                                </select>
+                        
+                            </div>
+                            
+                            
+                            
+                             <div class="form-group">
+                                <label for="title" class="control-label">Address</label>
+                                <input type="text" class="form-control" id="title" placeholder="Enter post title" required>
+                            </div>
+                            
+                             <div class="form-group">
+                                <label for="number" class="control-label">Contact Number</label>
+                                <input type="text" class="form-control" id="number" placeholder="contact no" required>
+                            </div>
+                            
+                             <div class="form-group">
+                                <label for="title" class="control-label">Rent</label>
+                                <input type="money" class="form-control" id="title" placeholder="how much" required>
+                            </div>
+                            
+                            <div class="form-group" id="faci">
+                                <label class="control-label">Facilities&#58;</label><br>
+                                    <div id="facility">
+                                        <h4 style="font-size: 16px;">Gas&#58; &nbsp;
+                                            <select class="dropdown">
+                                                <option disabled selected>select</option>
+                                                <option value="yes">Yes</option>
+                                                <option value="no">No</option>
+                                            </select>
+                                        </h4>                                       
+                                    
+                                    
+                                        <h4 style="font-size: 16px;">Lift&#58; &nbsp;
+                                           <select class="dropdown">
+                                                <option disabled selected>select</option>
+                                                <option>Yes</option>
+                                                <option>No</option>
+                                            </select>
+                                    
+                                        </h4>
+                                    
+                                        <h4 style="font-size: 16px;">Generator&#58; &nbsp;
+                                           <select class="dropdown">
+                                                <option disabled selected>select</option>
+                                                <option>Yes</option>
+                                                <option>No</option>
+                                            </select>
+                                    
+                                        </h4>
+                                    
+                                        <h4 style="font-size: 16px;">Dinning Room&#58; &nbsp;
+                                           <select class="dropdown">
+                                                <option disabled selected>select</option>
+                                                <option>Yes</option>
+                                                <option>No</option>
+                                            </select>
+                                    
+                                        </h4>
+                                    
+                                        <h4 style="font-size: 16px;"> Drawing room&#58; &nbsp;
+                                           <select class="dropdown">
+                                                <option disabled selected>select</option>
+                                                <option>Yes</option>
+                                                <option>No</option>
+                                            </select>
+                                    
+                                        </h4>
+                                    
+                                    </div>
+                                
+                            </div>
+                            
+                            
+                            <div class="form-group">
+                                <label class="label-control">Upload Image</label>
+                                <input type="file" class="form-control image-rounded">
+                            
+                            </div>
+                            
+                            
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+
+                </div>
+        
+            </div><!--row-->
+    </div><!--container-->
+    
+    
+    
+    
+    
+    
+    
+    
+    	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+	
+</body>
+</html>
