@@ -1,0 +1,23 @@
+html,body {
+    height: 100%;
+}
+
+
+
+
+#form {
+    border: solid 1px none;
+    padding: 30px;
+    margin-top: 20px;
+    background: #bbe1c3;
+}
+
+input[type="text"],input[type="email"],textarea[type="message"] {
+    width: 90%;
+}
+
+.container h3 {
+    font-style: oblique;
+    text-indent: 250px 
+    
+}
