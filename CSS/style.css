@@ -1,10 +1,11 @@
 html,#main {
     height: 100%;
-    background: #2f726a;
+    background: #423;
 }
 
 #logo {
-    box-shadow: 3px 5px 5px #234;
+    
+    box-shadow: 3px 5px 5px #444;
 }
 
 #head {
@@ -14,12 +15,12 @@ html,#main {
 #icon {
 	    font-size: 24px;
 	    padding: 12px;
-    color: #aaa;
+        color: white;
 }
 
 #phone {
 	font-size: 24px;
-    color: #aaa;
+    color: white;
 }
 
 nav.navbar {
@@ -92,7 +93,7 @@ nav.navbar {
 
 #form2 label {
     font-size: 18px;
-    color: #fdd;
+    color: #ffffff;
 }
 
 #form2 .btn-primary {
@@ -104,6 +105,9 @@ nav.navbar {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
+    color: #add;
+    font-style: italic;
+    text-shadow: 0 2px 1px #111;
 }
 
 
@@ -155,7 +159,9 @@ nav.navbar {
     padding: 10px;
     margin: 20px;
     text-align: center;
-    color: black;
+    color: #add;
+    font-style: italic;
+    text-decoration: underline;
 }
 
 #image {
