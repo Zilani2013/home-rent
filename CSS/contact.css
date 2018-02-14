@@ -6,18 +6,68 @@ html,body {
 
 
 #form {
+    width: 62.4%;
     border: solid 1px none;
     padding: 30px;
-    margin-top: 20px;
+    margin-top: -9.8px;
     background: #bbe1c3;
+    position: relative;
+    top: 0;
+    right: -12.5px;
+    
+}
+
+#bodyForm {
+    padding: 20px 0;
 }
 
 input[type="text"],input[type="email"],textarea[type="message"] {
     width: 90%;
 }
 
-.container h3 {
-    font-style: oblique;
-    text-indent: 250px 
+
+#head {
+        padding-top: 50px;
+}
+
+
+
+
+#head h3
+{
+    text-align: center;
+	width: 70%;
+	background: #787878;
+	padding: 20px 10px;
+    margin-bottom: 0;
+    color: #fc4;
+    font-size: 28px;
     
+}
+
+
+#head p {
+	width: 70%;
+	background: #fc3;
+	padding: 15px 10px;
+    font-size: 20px;
+}
+
+#head a {
+    border: solid 1px #aaa;
+    background: #ccf;
+    padding: 5px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 2px #aaa;
+    
+}
+
+.container h4 {
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+    width: 64.1%;
+    background: #bb91c3;
+    padding: 11px;
+     
 }
