@@ -5,9 +5,9 @@ label {
     margin: 0 auto;
     padding: 5px;
     color: aliceblue;
-    font-family: Arial
+    font-size: 18px;
+    text-align: center;
 }
-
 
 
 #facility {
@@ -24,10 +24,52 @@ label {
     border-radius: 0;
 }
 
-.form-group placeholder {
-    color: red;
-}
-
 .btn {
     padding: 8px 40px;
 }
+
+
+
+html,body {
+    height: 100%;
+    background: #bfbfbf;
+}
+
+#head {
+    text-align: center;
+    width: 80%;
+    border: solid 1px none;
+    background: #846297;
+    color: aliceblue;
+    margin: 15px auto;
+    padding: 2px;
+}
+
+
+#addPost {
+    border: solid 1px none;
+    background: #ffffff;
+    padding: 10px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
