@@ -44,9 +44,9 @@ body {
     width: 80%;
     border: solid 1px none;
     background: #ffffff;
-    color: #ff6fa2;
+    color: #d64f4f;
     margin: 15px auto;
-    padding: 2px;
+/*    padding: 2px;*/
 }
 
 
@@ -58,7 +58,7 @@ body {
 
 
 input[type="file"] {
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 
